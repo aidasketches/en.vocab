@@ -13,18 +13,20 @@ body {
 }
 
 .memory-game {
-  width: 94vh;
-  height: 94vh;
+  width: 90vh;
+  max-width: 90vw;
+  height: 95vh;
+  max-height: 90vw;
   margin: auto;
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
   overflow:hidden;
 }
 
 .memory-card {
-  width: 32%;
-  height: 23%;
+  width: calc(33.33% - 10px);
+  height: calc(25% - 10px);  
+  margin: 5px;
   position: relative;
   transform: scale(1);
   transform-style: preserve-3d;
@@ -80,9 +82,9 @@ body {
   color:lightpink;
 }
 
-@media (max-width:600px){
+/*@media (max-width:600px){
 	.memory-game{
 		width:90vw;
 		height:90vw;
 	}
-}
+}*/
