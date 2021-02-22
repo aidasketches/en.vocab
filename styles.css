@@ -1,4 +1,4 @@
-* {
+o* {
   margin:0;
   padding:0;
   box-sizing: border-box;
@@ -80,10 +80,9 @@ body {
   color:lightpink;
 }
 
-@media (max-width:600px){
+@media (max-width:600px) and (orientation:portrait) {
 	.memory-game{
 		width:90vw;
 		height:90vw;
-		margin-top:;
 	}
 }
