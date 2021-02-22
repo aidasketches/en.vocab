@@ -87,7 +87,7 @@ body {
 @media (min-width:600px){
 	.memory-game{
 		width: 95vh;
-    height: 95vh;
+    		height: 95vh;
 	}
 }
 
