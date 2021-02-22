@@ -13,8 +13,8 @@ body {
 }
 
 .memory-game {
-  width: 95vh;
-  height: 95vh;
+  width: 94vh;
+  height: 94vh;
   margin: auto;
   display: flex;
   justify-content: space-between;
