@@ -32,8 +32,6 @@ body {
   transform-style: preserve-3d;
   transition: transform .5s;
   box-shadow: 1px 1px 1px rgba(0,0,0,.3);
-  font-size: 1.6rem; 
-
 }
 
 .memory-card:active {
@@ -82,9 +80,13 @@ body {
   color:lightpink;
 }
 
-/*@media (max-width:600px){
+@media (max-width:600px){
 	.memory-game{
-		width:90vw;
-		height:90vw;
+		font-size:1.5rem;
 	}
-}*/
+}
+@media (min-width:600px){
+	.memory-game{
+		font-size:1.8rem;
+	}
+}
