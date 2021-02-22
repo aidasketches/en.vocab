@@ -80,7 +80,7 @@ body {
   color:lightpink;
 }
 
-@media (max-width:600px) and (orientation:portrait) {
+@media only screen and (max-device-width:600px) {
 	.memory-game{
 		width:90vw;
 		height:90vw;
